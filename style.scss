@@ -65,7 +65,7 @@ nav a {
 
 @mixin navigation_link_with_icon($padding_top_bottom: 15, $padding_left_right: 10) {
   text-decoration: none;
-  padding: pxToEm(padding_top_bottom) pxToEm(padding_left_right);
+  padding: pxToEm($padding_top_bottom) pxToEm($padding_left_right);
 }
 
 @mixin closeState () {
